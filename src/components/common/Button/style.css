@@ -1,0 +1,38 @@
+.btn{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: .5rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3rem;
+    text-align: center;
+    min-width: 100px;
+}
+
+/* to use button shadow => box sadow generator  */
+.btn:hover{
+    box-shadow: -1px 2px 53px 3px rgba(66,183,212,1);
+    transition: .3s;
+    text-align: center;
+    min-width: 100px;
+}
+
+.outlined-btn{
+    background-color: var(--black);
+    color: var(--white);
+    padding: .5rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3rem;
+    border: 1px solid var(--blue);
+    text-align: center;
+    min-width: 100px;
+}
+
+/* to use button shadow => box sadow generator  */
+.outlined-btn:hover{
+   background-color: var(--blue);
+   text-align: center;
+    min-width: 100px;
+   transition: .3s;
+}

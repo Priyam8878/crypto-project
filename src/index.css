@@ -1,0 +1,88 @@
+:root {
+  --white: #fff;
+  --black: #111;
+  --blue: #3a80e9;
+  --green: #61c96f;
+  --darkgrey: #1b1b1b;
+  --red: #f94141;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+overflow-wrap: normal;
+  margin: 0;
+color: var(--white);
+  background-color: var(--black);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+/*
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* while selecting the text in the website uwe generaly use ::selection  and this is known as custom selection */
+
+::selection {
+  background-color: #f94141;
+  color: #1b1b1b;
+}
+
+/* custom Scrolbar =>  */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue);
+}
+
+.grey-wrapper{
+  background-color: var(--darkgrey);
+  margin: 1.5rem auto;
+  border-radius: .5rem;
+  width: 80%;
+}
+.chart-design{
+  width: 70% !important;
+  height: 50% !important;
+}
+.coins-days-flex{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1.5rem;
+  gap: 2rem;
+}
+
+.watchlist-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.watchlist-flex p{
+  font-size: 2rem;
+  color: var(--blue);
+  margin-right: 2rem;
+}
